@@ -1,0 +1,108 @@
+STL (STL)
+
+1. Algorithms
+	search()
+	sort()
+	binary_search()
+	reverse()
+	concat()
+	copy()
+	union()
+	intersection()
+	merge()
+	heap()
+
+
+	
+2. Containers
+(this is template classes means they can work for any types of data)
+	
+	1. vector
+	
+		push_back()		insert element at the back
+		pop_back()		deleting element at the back
+		insert()
+			insert(begin(),)	insert element at the front
+			insert(end(),)		insert element at the back
+		remove()		remove an element from the vector
+		size()			return size of vector
+		empty()			if emply '1' if not '0'
+	
+	
+	
+	2. forward_list (known as singly linkedlist)
+	
+		push_front()	insert element at the front
+		pop_front()	delet element at the front
+		insert()
+			insert(begin(),)
+		remove()
+		size()
+		empty()
+		front()		return front element
+		back()		return last element
+	
+	
+	
+	3. list		(known as doubly linkedlist)
+	
+		push_front()
+		pop_front()
+		push_back()
+		pop_back()
+		insert()
+			insert(begin(),)
+			insert(end(),)
+		remove()
+		size()
+		empty()
+		front()
+		back()
+	
+	
+	
+	4. deque
+	
+		push_front()
+		pop_front()
+		push_back()
+		pop_back()
+		insert()
+			insert(begin(),)
+			insert(end(),)
+		remove()
+		size()
+		empty()
+		front()
+		back()
+	
+	
+	
+	5. priority_queue
+	
+		push()
+		pop()		it delete only maximum element
+		empty()
+		size()
+	
+	
+	6. stack
+	
+	
+	7. set
+	
+	
+	8. multiset
+	
+	
+	9. map
+	
+		<key, value>		key must be unique / different
+	
+	
+	10. multimap
+	
+		<key, value>		key may be same but value must be defferent
+
+
+2. Iterators

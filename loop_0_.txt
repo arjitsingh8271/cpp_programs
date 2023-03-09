@@ -1,0 +1,11 @@
+In computer programming, loops are used to repeat a block of code.
+
+For example, let's say we want to show a message 100 times. Then instead of writing the print statement 100 times, we can use a loop.
+
+That was just a simple example; we can achieve much more efficiency and sophistication in our programs by making effective use of loops.
+
+There are 3 types of loops in C++.
+
+for loop
+while loop
+do...while loop
