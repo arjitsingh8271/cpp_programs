@@ -18,17 +18,24 @@ int increment(int *a)
 
 int main()
 {
-	int a = 5;
-	cout<<increment(&a)<<endl;		// here a = 6
-	cout<<a<<endl;					// here a = 6
+	int x = 5;
+	cout<<increment(&x)<<endl;		// here a = 6
+	cout<<x<<endl;					// here a = 6
 
 	return 0;
 }
 
 
-
-
 /*
 OUTPUT: 6
 		6
+
+In this example, we are going to demonstrate the call by address mechanism. 
+From the “main()” function, we are calling the “increment()” function and 
+passing the address of “x”. In the function definition, we are receiving 
+the address of “x” in a pointer variable, i.e., “a”. Inside the function increment, 
+the value of “x” is being changed to (*a++) i.e, '6' with the help of the pointer. 
+Therefore, the value of “x” is getting changed to 6 inside the “main()” 
+function after the “increment()” function call.
+
 */

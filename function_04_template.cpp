@@ -2,7 +2,7 @@
 Template:
 
 We can write multiple function together as a single function 
-were if the difference in there in their returnType.
+were if the difference in there in their datatype / returnType.
 */
 
 # include <iostream>

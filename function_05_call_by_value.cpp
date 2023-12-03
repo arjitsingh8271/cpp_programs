@@ -18,14 +18,12 @@ int increment(int a)
 
 int main()
 {
-	int a = 5;						// Actual parameter
-	cout<<increment(a)<<endl;		// here a = 6
-	cout<<a<<endl;					// here a = 5
+	int x = 5;						// Actual parameter
+	cout<<increment(x)<<endl;		// here x = 6
+	cout<<x<<endl;					// here x = 5
 
 	return 0;
 }
-
-
 
 
 /*

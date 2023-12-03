@@ -7,7 +7,7 @@ int main()
 {
 	int arr[]={12,13,14,15};
 
-	int* p = arr;       //NOTE: no & is used in array becouse name of an arr[0] ... is its address
+	int* p = arr;       //NOTE: & is not used in array becouse name of an arr[0] ... is its address
 
 	cout<<"The value of *(p)   is = arr[0]: "<<*p<<endl;
 	cout<<"The value of *(p+1) is = arr[1]: "<<*(p+1)<<endl;

@@ -84,6 +84,11 @@ int main()
 	cout<<"r6 (*r3): "<<endl;
 	r6 -> display();
 
+	delete r1;		// we have to manually deallocate memory of r1,r3,r5 & r6 because it is dynamically creted
+	delete r3;
+	delete r5;
+	delete r6;
+
 	return 0;
 }
 
@@ -117,4 +122,11 @@ OUTPUT: r:
 		r6 (*r3): 
 		Length: 20
 		Breadth: 10
+		Destructor Called !
+		Destructor Called !
+		Destructor Called !
+		Destructor Called !
+		Destructor Called !
+		Destructor Called !
+		Destructor Called !
 */

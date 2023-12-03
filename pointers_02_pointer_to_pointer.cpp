@@ -5,14 +5,15 @@ using namespace std;
 
 int main()
 {
-	int a = 5;       	// * is Dereference of operator
-	int* b = &a;		// & is Address of operator
+	int a = 5;       	
+	int *b = &a;
 	
 	cout<<"The Value of a is: "<< a <<endl;					// print value of a
 	cout<<"The Address of a is: "<< &a <<endl;				// print address of a
 	cout<<"The Address of a is: "<< b <<endl;				// print address of a
 	cout<<"The value at address of a is: "<< *b <<endl;		// print value at address of a
 	cout<<endl;
+
 
 	// Pointer to Pointer
 	

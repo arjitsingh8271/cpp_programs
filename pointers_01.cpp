@@ -12,6 +12,8 @@ eg: int* integer type pointer
 '&' is known as address-of operator
 */
 
+
+
 #include<iostream>
 using namespace std;
 
@@ -19,7 +21,9 @@ int main()
 {
 	int a = 5;          // * is Dereference of operator
 	int* p = &a;        // & is Address of operator
-	// int *c = 10;		not posible because pointers points only addresses
+	// int *p = 10;		not posible because pointers points only addresses
+	// int *p = a;		// invalid conversion
+
 	
 	cout<< a <<endl;		// Value of a: 5
 	cout<< &a <<endl;		// Address of a: 0x7ffeb86e7aa8 (&a)

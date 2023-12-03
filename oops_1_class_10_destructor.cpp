@@ -40,7 +40,7 @@ int main()
 
 	Rectangle *r3 = new Rectangle(20,10);
 	r3 -> display();
-	delete r3;		// we have to manually deallocate memory of r3 becouse it is dynamically creted
+	delete r3;		// we have to manually deallocate memory of r3 because it is dynamically creted
 
 	return 0;
 }

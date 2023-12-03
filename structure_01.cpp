@@ -1,32 +1,23 @@
 #include <iostream>
 using namespace std;
 
-struct person       // Structure declaration
-{
-    string name;    // Member (string variable)
-    int age;        // Member (int variable)
-    double salary;   // Member (double variable)
-};                  // Structure variable
+struct{
+	int roll;
+	string name;
+} student;
 
-int main()
-{
-	person arjit, rahul;
-	
-    arjit.name = "Arjit Kumar Singh";
-	arjit.age = 19;
-	arjit.salary = 25500;
+int main(){
 
-    rahul.name = "Rahul Roy";
-    rahul.age = 25;
-    rahul.salary = 32000;
+	//student.roll = 71;
+	//student.name = "Arjit";
 
-    cout<<arjit.name<<endl;
-    cout<<arjit.age<<endl;
-    cout<<arjit.salary<<endl;
+	student = {71, "Arjit"};
 
-    cout<<rahul.name<<endl;
-    cout<<rahul.age<<endl;
-    cout<<rahul.salary<<endl;
+	cout<<student.roll<<" "<<student.name<<endl;
 
-    return 0;
+	return 0;
 }
+
+
+
+// OUTPUT: 71 Arjit
