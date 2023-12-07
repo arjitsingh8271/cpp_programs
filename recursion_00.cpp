@@ -10,7 +10,7 @@ when we create a recursive function we must
 have a Base Condition on it.
 
 Base Condition means a termination condition.
-without B.C. the recursive function react like 
+Without B.C. the recursive function react like 
 infinity loop.
 
 */
