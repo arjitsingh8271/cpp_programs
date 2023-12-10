@@ -1,0 +1,101 @@
+Two Types of Array
+------------------
+
+1. Fixed Size Array.
+e.g: Regular Array.
+
+	int arr[5];	(Stack Allocated)
+
+	int n;
+	cin>>n;
+	int arr[n];	(Stack Allocated)
+
+	int arr[] = {1,2,3,4};	(Stack Allocated)
+
+	int arr = new int arr[5];	(Heap Allocated)
+
+ 
+2. Dynamic Size Array.
+	C++ 	: Vector
+	Java 	: ArrayList
+	Python 	: List
+
+	if we creat a Vector 10 Size. then user input 11th value its automatice double its size.
+	then its copy 10 value to double size vector.
+
+
+
+
+
+Vector in C++
+-------------
+
+
+
+Advantages of Vector over Array
+---- ---- ---- ---- ---- ----
+
+1. Dynamic size.
+
+2. Rich library function.
+	(find, insert, erase etc)
+
+3. Easy to know size.
+	in Array
+		int ar[n]; 
+		s = sizeof(arr) / sizeof(arr[0]);
+	in Vector 
+		vector<int> v; 
+		s = v.size();
+
+4. Easy to copy a vector to another.
+	in Array
+		we have to run a loop for copy an array to another.
+	in Vector
+		v1 = v2;
+
+5. No need to pass size.
+	in Array
+		We must pass size.
+		int fun(int ar[], int size)
+			it receive array as pointer array i.e int *ar[]. 
+			if we do thin sizeof(ar)/sizeof(ar[0]); in function we get size of pointer.
+			So we must pass size of ar[].
+	in Vector
+		int fun(vector<int> v)
+		We no need to pass size.
+		Because vector is an object or Vector class so they have size inside them so we can just do v.size() in any function to know the size of vector
+
+6. Can be return from function.
+	in Array
+		int fun()
+		{
+			int arr[5];
+			return arr;
+		}
+		Not possible to return arr because when function call is over it simply deallocate arr[].
+		int fun()
+		{
+			int * arr = new int [5];
+			return arr;
+		}
+		it can return.
+	in Vector 
+		vector<int> fun()
+		{
+			vector<int> v;
+			return v;
+		} 
+
+
+7. By default initialized with 0 value.
+	in Array
+		int arr[5];
+		cout<<arr[0];	-> show Garbage value
+			.
+			.
+	int Vector
+		vector<int> v(5);
+		cout<<v[0];		-> show 0
+			.
+			.
