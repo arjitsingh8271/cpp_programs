@@ -1,0 +1,84 @@
+STL (Standard Telplate Library)
+
+STL Provides a set of programming tools to implement algorithms and data structure like vector, list, queues, etc.
+
+STL Components are:	Containers, Iterators, Algorithms, Function object.
+
+1. Containers
+	a. Sequence Container
+		* Vector
+		--------
+				push_back()		insert element at the back
+				pop_back()		deleting element at the back
+				insert()
+					insert(begin(),)	insert element at the front
+					insert(end(),)		insert element at the back
+				remove()		remove an element from the vector
+				size()			return size of vector
+				empty()			if emply '1' if not '0'
+		* Deque
+		-------
+				push_front()
+				pop_front()
+				push_back()
+				pop_back()
+				insert()
+					insert(begin(),)
+					insert(end(),)
+				remove()
+				size()
+				empty()
+				front()
+				back()
+		* List
+		------
+			*forward_list (known as singly linkedlist)
+			-------------
+				push_front()	insert element at the front
+				pop_front()	delet element at the front
+				insert()
+					insert(begin(),)
+				remove()
+				size()
+				empty()
+				front()		return front element
+				back()		return last element
+			*list	(known as doubly linkedlist)
+			-----
+				push_front()
+				pop_front()
+				push_back()
+				pop_back()
+				insert()
+					insert(begin(),)
+					insert(end(),)
+				remove()
+				size()
+				empty()
+				front()
+				back()
+	b. Associative Container
+		* Set
+		-----
+		* Multiset
+		----------
+		* Map
+		-----
+		* Multimap
+		----------
+	c. Container adapter
+		* Stack
+		-------
+		* Queue
+		-------
+
+2. Iterators
+
+3. Algorithms 
+	a. Modifying algorithms
+	b. Non-modifying algorithms
+	c. Sorting algorithms
+	d. Searching algorithms
+	e. Numeric algorithms
+
+4. Function object

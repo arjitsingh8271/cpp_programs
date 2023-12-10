@@ -1,6 +1,4 @@
 
-
-
 # include <iostream>		// # include : is a Preprocessor directives that tells the compiler to include 
 							// a file as part of the finished product. Preprocessor directives begin with a 
 							// pound sign (#), which is also called an octothorp.

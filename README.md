@@ -4,11 +4,11 @@
 ## CMD in Windows
 \>cd Desktop<br>
 \Desktop> cd "cpp programs"<br>
-\Desktop\cpp programs> **g++ fileName.cpp**<br>
-\Desktop\cpp programs> **.\a.out**<br>
+\Desktop\cpp programs> **g++ fileName.cpp**		to compiling program<br>
+\Desktop\cpp programs> **.\a.out** or **.\fileName.out**	to executing program<br>
 
 ## Terminal in Linux/Mac
 /$ cd Desktop<br>
 /Desktop$ cd "cpp programs"<br>
-/Desktop/cpp programs$ **g++ fileName.cpp**<br>
-/Desktop/cpp programs$ **./a.out**<br>
+/Desktop/cpp programs$ **g++ fileName.cpp**		to compiling program<br>
+/Desktop/cpp programs$ **./a.out**		to executing program<br>

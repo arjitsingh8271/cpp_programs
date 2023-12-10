@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std;
 
-struct{
-	int roll;
-	string name;
+struct				// Structure declaration
+{
+	int roll;       // Member (int variable)
+	string name;    // Member (string variable)
 } student;
 
 int main(){
