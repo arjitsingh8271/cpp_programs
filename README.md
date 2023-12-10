@@ -1,5 +1,5 @@
 # How to Run Programs
-<img src="https://github.com/arjitsingh8271/cpp_programs/img/coder_bears.gif" width="385px" align="center">
+<img src="https://github.com/arjitsingh8271/cpp_programs/blob/master/img/coder_bear.gif" width="385px" align="center">
 
 ## CMD in Windows
 \>cd Desktop<br>
