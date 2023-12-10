@@ -1,7 +1,13 @@
-# To Run Programs on Windows
-C:\Users\arjit\Desktop\Programming\c++_programming> g++ file_name.cpp		(Hit Enter)
-C:\Users\arjit\Desktop\Programming\c++_programming> .\a.out					(Hit Enter)
+# How to Run Programs
 
-# To Run Programs on Liunx / Mac
-arjit@e14-gen-3:~/Desktop/Programming/c++_programming$ g++ file_name.cpp	(Hit Enter)
-arjit@e14-gen-3:~/Desktop/Programming/c++_programming$ ./a.out				(Hit Enter)
+## CMD in Windows
+\>cd Desktop\
+\Desktop> cd "c++ programming"\
+\Desktop/c++ programming> **g++ fileName.cpp**
+\Desktop/c++ programming> **.\a.out**
+
+## Terminal in Linux/Mac
+/$ cd Desktop/
+/Desktop$ cd "c++ programming"/
+/Desktop/c++ programming$ **g++ fileName.cpp**
+/Desktop/c++ programming$ **./a.out**
