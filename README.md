@@ -1,4 +1,4 @@
-# How to Run Programs
+# How to Run C++ Programs
 <img src="https://github.com/arjitsingh8271/cpp_programs/blob/master/img/coder_bear.gif" width="385px" align="center">
 
 ## CMD in Windows
