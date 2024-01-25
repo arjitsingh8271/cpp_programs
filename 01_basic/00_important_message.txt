@@ -1,0 +1,27 @@
+To run C++ code in linux:
+	$ g++ file_name.cpp
+	$ ./a.out
+	
+To run C++ code in Windows:
+	$ g++ file_name.cpp
+	$ .\a.exe
+
+
+
+Best site to learn C++ :-
+	https://dotnettutorials.net/course/cpp-tutorials-for-beginners-and-professionals/
+	https://www.learncpp.com/
+	https://www.includehelp.com/cpp-tutorial/
+	https://www.programiz.com/cpp-programming
+	https://www.w3schools.com/cpp/default.asp
+	https://cplusplus.com/
+
+	https://en.cppreference.com/w/
+
+
+#include <bits/stdc++.h>    // all in one import library file
+
+
+Filename extensions of C++ is:-
+.c, .cc, .cpp, .cxx, .c++, .h, .H, .hh, .hpp, .hxx, .h++, .cppm, .ixx
+but preferred extension is  '.cpp'  

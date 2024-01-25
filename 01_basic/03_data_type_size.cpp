@@ -28,6 +28,8 @@ int main()
 
 	cout<<"char: 			"<<sizeof(char)<<" byte"<<endl;
 	cout<<"wchar_t: 		"<<sizeof(wchar_t)<<" byte"<<endl;
+	cout<<"char16_t: 		"<<sizeof(char16_t)<<" byte"<<endl;
+	cout<<"char32_t: 		"<<sizeof(char32_t)<<" byte"<<endl;
 	cout<<endl;
 
 	cout<<"bool: 			"<<sizeof(bool)<<" byte"<<endl;
@@ -57,6 +59,8 @@ OUTPUT:
 
 		char:                   1 byte
 		wchar_t:                4 byte
+		char16_t:               2 byte
+		char32_t:               4 byte
 
 		bool:                   1 byte
 */

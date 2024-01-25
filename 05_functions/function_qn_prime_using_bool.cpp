@@ -2,9 +2,9 @@
 using namespace std;
 
 bool prime(int num1)
-{   if(num1<=2)
+{   if(num1<=1)
 	{
-		return true;
+		return false;
 	}
 	for (int i = 2; i*i<=num1 ; i++)
 	{

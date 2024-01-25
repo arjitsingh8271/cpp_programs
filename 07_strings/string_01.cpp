@@ -6,7 +6,8 @@ int main()
 	string name = "Arjit Singh";
 	name = "golu";
 
-	cout<<"Name is: "<<name<<endl;
+	cout<<"Name is: "<<name<<endl;		// -> golu
+	cout<<name[0]<<endl;				// -> g
 	
 	//string name;
 	//getline(cin,name);  	//reading through keybord a line of text.
@@ -18,6 +19,3 @@ int main()
 
 	return 0;
 }
-
-
-// OUTPUT: Name is: golu

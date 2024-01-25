@@ -22,5 +22,30 @@ int main()
 }
 
 
+// Declear Member function outside class using :: scope resolution operator
+
+/*
+class hello
+{
+	public:
+		void display();
+};
+
+void hello :: display()		// member function
+{
+	cout<<"Hello World..!"<<endl;
+}
+
+int main()
+{
+	hello xyz;
+	xyz.display();			// Call the method
+
+	return 0;
+}
+*/
+
+
+
 
 // OUTPUT: Hello World..!
